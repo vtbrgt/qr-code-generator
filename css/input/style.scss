@@ -56,3 +56,9 @@ main {
 }
 
 // criar desktop design
+
+@media (min-width: 1024px) {
+  header {
+    width: 50%;
+  }
+}

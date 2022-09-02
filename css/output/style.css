@@ -66,4 +66,11 @@ main input:focus-visible {
   outline: 2px solid #123c12;
 }
 
+@media (min-width: 1024px) {
+  /* line 61, ../Projetos Pessoais/qr-code-generator/css/input/style.scss */
+  header {
+    width: 50%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

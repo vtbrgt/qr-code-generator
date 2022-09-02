@@ -38,7 +38,7 @@ header img {
 }
 
 /* line 36, ../Projetos Pessoais/qr-code-generator/css/input/style.scss */
-main {
+form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,13 +47,13 @@ main {
 }
 
 /* line 42, ../Projetos Pessoais/qr-code-generator/css/input/style.scss */
-main label {
+form label {
   font-size: 1.5rem;
   text-align: center;
 }
 
 /* line 46, ../Projetos Pessoais/qr-code-generator/css/input/style.scss */
-main input {
+form input {
   background: #c5ffec;
   border: 1px solid #54a087;
   width: 80%;
@@ -62,12 +62,28 @@ main input {
 }
 
 /* line 53, ../Projetos Pessoais/qr-code-generator/css/input/style.scss */
-main input:focus-visible {
+form input:focus-visible {
   outline: 2px solid #123c12;
 }
 
+/* line 56, ../Projetos Pessoais/qr-code-generator/css/input/style.scss */
+form button {
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: 0.5px solid rgba(0, 0, 0, 0.745);
+  padding: 4px 18px;
+  background: #54a087;
+}
+
+/* line 63, ../Projetos Pessoais/qr-code-generator/css/input/style.scss */
+form button:hover {
+  background: #c5ffec;
+  transform: scale(1.2);
+  transition: all 1s ease-in-out;
+}
+
 @media (min-width: 1024px) {
-  /* line 61, ../Projetos Pessoais/qr-code-generator/css/input/style.scss */
+  /* line 73, ../Projetos Pessoais/qr-code-generator/css/input/style.scss */
   header {
     width: 50%;
   }

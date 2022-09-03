@@ -80,10 +80,11 @@ form button:hover {
   background: #c5ffec;
   transform: scale(1.2);
   transition: all 1s ease-in-out;
+  cursor: pointer;
 }
 
 @media (min-width: 1024px) {
-  /* line 73, ../Projetos Pessoais/qr-code-generator/css/input/style.scss */
+  /* line 74, ../Projetos Pessoais/qr-code-generator/css/input/style.scss */
   header {
     width: 50%;
   }

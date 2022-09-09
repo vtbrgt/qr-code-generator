@@ -6,4 +6,5 @@ btn.addEventListener('click', (event) => {
   result.innerHTML = '';
   event.preventDefault();
   new QRCode(result, input.value);
+  result.style.display = 'block';
 });
